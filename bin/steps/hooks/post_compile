@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
 echo "-----> Running post-compile hook"
+pwd
+ls -la .
+
 chmod +x bin/post_compile
 sub-env bin/post_compile
